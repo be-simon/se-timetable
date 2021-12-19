@@ -1,0 +1,91 @@
+h5 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0
+}
+
+#main_container {
+  display: flex;
+}
+
+#table_container {
+  display: flex;
+  flex-direction: column;
+}
+
+#time_container {
+  display: flex;
+
+}
+
+#option_container {
+  margin-left: 7em;
+  width: 15em;
+}
+
+#daybar {
+  display: flex;
+  height: 30px;
+  box-sizing: border-box;
+  width: fit-content;
+  border-top: 1px solid #A2A2A2;
+  border-right: 1px solid #A2A2A2;
+}
+
+.daybar_element {
+  width: 90px;
+  border: 1px solid #A2A2A2;
+  box-sizing: border-box;
+}
+
+.empty_element {
+  width: 40px;
+  border: 1px solid #A2A2A2;
+  border-left: 2px solid #A2A2A2;
+}
+
+#timebar {
+  border-left: 2px solid #A2A2A2;
+  border-bottom: 1px solid #A2A2A2;
+
+}
+
+.timebar_element {
+  width: 40px;
+  height: 70px;
+  border-bottom: 1px solid #A2A2A2;
+  border-top: 1px solid #A2A2A2;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+
+#timetable {
+  display: flex;
+  position: relative;  
+  width: fit-content;
+  border: 1px solid #A2A2A2;
+  border-top: none;
+}
+
+.hour {
+  width: 90px;
+  height: 70px;
+  /* border-bottom: 1px solid #A2A2A2;
+  border-left: 1px solid #A2A2A2; */
+  border: 1px solid #A2A2A2;
+  box-sizing: border-box;
+}
+
+.timeblock {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #A2A2A2;
+  padding: 3px;
+}
+
+.select_major {
+  width: 100%;
+}

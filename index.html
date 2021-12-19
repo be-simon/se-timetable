@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script defer src="index.js" type="module"></script>
+</head>
+<body>
+	<div id="main_container">
+		<section id="table_container">
+			<div id="daybar">
+				<div class="empty_element"></div>
+				<div class="daybar_element">월</div>
+				<div class="daybar_element">화</div>
+				<div class="daybar_element">수</div>
+				<div class="daybar_element">목</div>
+				<div class="daybar_element">금</div>
+			</div>
+			<div id="time_container">
+				<div id="timebar"></div>
+				<div id="timetable"></div>
+			</div>
+		</section>
+		<section id="sidebar">
+			<div id="option_container">
+				<select class="select_major" name="major" required>
+					<option value="">--전공을 선택하세요.--</option>	
+				</select>
+				<select value="" class="select_tag" name="tag">
+					<option>--영역을 선택하세요.--</option>	
+				</select>
+				<div>		
+					<label for="input_grade">학년</label>
+					<input id="input_grade" type="text" required>
+				</div>
+				<div>		
+					<label for="max_credit">최대 학점</label>
+					<input id="max_credit" type="text" required>
+				</div>
+				<div>		
+					<label for="min_credit">최소 학점</label>
+					<input id="min_credit" type="text" required>
+				</div>
+				<div>		
+					<label for="min_major_credit">최소 전공 학점</label>
+					<input id="min_major_credit" type="text" required>
+				</div>
+				<button id="submit_btn">제출</button>
+			</div>
+			<div id="result_container">
+				
+			</div>
+		</section>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name" : "se-timetable",
+  "main": "index.js",
+  "type": "module"
+}
